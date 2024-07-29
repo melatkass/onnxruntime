@@ -62,7 +62,7 @@
 				</div>
 			{/key}
 		</div>
-		div class="mx-auto pt-8 pr-20">
+		<div class="mx-auto pt-8 pr-20">
 			<p class="text-lg">Want to try running these yourself?</p>
 			<p class="mt-2 text-lg font-bold">Here's How!</p>
 			<ul class="steps steps-vertical overflow-auto">
