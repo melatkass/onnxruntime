@@ -1,6 +1,7 @@
 <script>
 	import tableGenerationVideo from '../../images/table-generation.mp4';
 </script>
+
 <div class="container ms-auto">
 	<div class="flex justify-center mx-auto">
 		<div class="card mx-auto" style=" background-color: #CBCBCB; border: 4px solid #A2E5FC;">
@@ -71,8 +72,8 @@
 								loop
 								controls
 								style="border: 6px solid black; border-bottom-left-radius: 17px; border-bottom-right-radius: 17px;"
+								src={tableGenerationVideo}
 							>
-								<source src={tableGenerationVideo} type="video/mp4" />
 								<track kind="captions" />
 							</video>
 						</div>
