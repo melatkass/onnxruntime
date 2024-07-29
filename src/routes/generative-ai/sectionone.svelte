@@ -62,27 +62,40 @@
 				</div>
 			{/key}
 		</div>
-		<div class="mx-auto pt-8 pr-20">
-			<p class="text-lg">
-				Want to try running <a
-					href="https://onnxruntime.ai/docs/tutorials/"
-					class="underline hover:text-blue-500 font-bold transition duration-500 ease-in-out"
-					>these</a
-				> yourself?
-			</p>
-			<p class="mt-2 text-lg font-bold p-4">Here's How!</p>
+		div class="mx-auto pt-8 pr-20">
+			<p class="text-lg">Want to try running these yourself?</p>
+			<p class="mt-2 text-lg font-bold">Here's How!</p>
 			<ul class="steps steps-vertical overflow-auto">
-				<li class="step step-primary">Choose: Python, C#, C++, or JS</li>
-				<li class="step step-primary text-left">Install for CPU</li>
-				<li class="step text-left">Install for GPU (if needed)</li>
-				<li class="step">Special Environment</li>
-				<li class="step">Click the Install button below for more detailed instructions.</li>
+				<li class="step step-primary">
+					<a
+						href="https://github.com/microsoft/onnxruntime-inference-examples/tree/main/mobile/examples/phi-3/android"
+					>
+						<div class="card-actions justify-end p-8">
+							<button class="bg-primary btn btn-primary"
+								><p class="text-2xl">Run on Mobile</p></button
+							>
+						</div>
+					</a>
+				</li>
+				<li class="step step-primary">
+					<a href="https://onnxruntime.ai/docs/genai/tutorials/phi3-v.html">
+						<div class="card-actions justify-end p-8">
+							<button class="bg-primary btn btn-primary"
+								><p class="text-2xl">Run on Desktop</p></button
+							>
+						</div>
+					</a>
+				</li>
+				<li class="step step-primary">
+					<a href="https://github.com/microsoft/onnxruntime-inference-examples/tree/main/js/chat">
+						<div class="card-actions justify-end p-8">
+							<button class="bg-primary btn btn-primary"
+								><p class="text-2xl">Run in Browser</p></button
+							>
+						</div>
+					</a>
+				</li>
 			</ul>
-			<a href="https://onnxruntime.ai/docs/install/">
-				<div class="card-actions justify-end p-8">
-					<button class="bg-primary btn btn-primary">Install</button>
-				</div>
-			</a>
 		</div>
 	</div>
 </div>
