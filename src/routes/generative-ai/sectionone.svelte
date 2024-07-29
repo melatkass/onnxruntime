@@ -5,9 +5,9 @@
 
 	let words = ['Mobile', 'Desktop', 'Browser'];
 	let images = [
-		'src/images/mobile_example_1024_rect_cropped.png',
-		'src/images/desktop_example_1024_rect_cropped.png',
-		'src/images/browser_example_1024_rect_cropped.png'
+		'./src/images/mobile_example_1024_rect_cropped.png',
+		'./src/images/desktop_example_1024_rect_cropped.png',
+		'./src/images/browser_example_1024_rect_cropped.png'
 	];
 
 	let currentWordIndex = 0;
