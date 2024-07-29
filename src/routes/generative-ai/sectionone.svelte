@@ -2,12 +2,15 @@
 	import { quartInOut } from 'svelte/easing';
 	import { fade } from 'svelte/transition';
 	import { onMount } from 'svelte';
+	import mobileExample from '../../images/mobile_example_1024_rect_cropped.png';
+	import desktopExample from '../../images/desktop_example_1024_rect_cropped.png';
+	import browserExample from '../../images/browser_example_1024_rect_cropped.png';
 
 	let words = ['Mobile', 'Desktop', 'Browser'];
 	let images = [
-		'./src/images/mobile_example_1024_rect_cropped.png',
-		'./src/images/desktop_example_1024_rect_cropped.png',
-		'./src/images/browser_example_1024_rect_cropped.png'
+		mobileExample,
+		desktopExample,
+		browserExample
 	];
 
 	let currentWordIndex = 0;
